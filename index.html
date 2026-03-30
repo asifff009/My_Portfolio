@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Asif Al Rumel | Home</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+<div class="nav-container">
+<div class="logo">Asif</div>
+<div class="menu-toggle" onclick="toggleMenu()">☰</div>
+<ul id="nav-menu">
+<li><a href="index.html" class="active">Home</a></li>
+<li><a href="profile.html">Profile</a></li>
+<li><a href="education.html">Education</a></li>
+<li><a href="skills.html">Skills</a></li>
+<li><a href="certificates.html">Certificates</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</div>
+</nav>
+
+<div class="container home">
+<div class="profile-img">
+<img src="image/myprofile.jpg">
+</div>
+<h1>Asif Al Rumel</h1>
+<p>
+CSE Undergraduate at Daffodil International University <br>
+Android App Developer • Competitive Programmer • Web Enthusiast
+</p>
+</div>
+
+<footer>© 2026 <span>Asif Al Rumel</span></footer>
+
+<script>
+function toggleMenu(){
+document.getElementById("nav-menu").classList.toggle("show");
+}
+</script>
+</body>
+</html>
